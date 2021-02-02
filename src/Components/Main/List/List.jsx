@@ -20,7 +20,9 @@ const List = () => {
   const classes = useStyles();
 
   const transactions = [
-    { id: 1, type: 'Income', category: 'Salary', amount: 30, date: new Date() }
+    { id: 1, type: 'Income', category: 'Salary', amount: 2000, date: 'Tue Feb 21' },
+    { id: 2, type: 'Expense', category: 'Tuxedo', amount: 60, date: 'Tue Feb 22' },
+    { id: 3, type: 'Expense', category: 'Mortgage', amount: 300, date: 'Tue Feb 23' }
   ];
 
   return (
@@ -47,7 +49,7 @@ const List = () => {
             </ListItemAvatar>
             <ListItemText
               primary={transaction.category}
-              secondary={`$${transaction.amount} - ${transaction.date}`}
+              secondary={`£${transaction.amount} - ${transaction.date}`}
             />
             <ListItemSecondaryAction>
               <IconButton edge="end" arial-label="delete" onClick="">
