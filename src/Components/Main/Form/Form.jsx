@@ -32,7 +32,10 @@ const Form = () => {
       <Grid item xs={6}>
         <FormControl fullWidth>
           <InputLabel>Category</InputLabel>
-          <Select></Select>
+          <Select>
+            <MenuItem value="business">Business</MenuItem>
+            <MenuItem value="salary"> Salary </MenuItem>
+          </Select>
         </FormControl>
       </Grid>
       <Grid item xs={6}>
