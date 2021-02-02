@@ -1,9 +1,12 @@
-#root, body, html {
-    height: 100%;
-    margin: 0;
+#root,
+body,
+html {
+  height: 100%;
+  margin: 0;
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.199)), url('./assets/mountain1.jpg');
-    background-size: cover;
+  background: linear-gradient(rgba(7, 7, 7, 0.11), rgba(0, 0, 0, 0.199)),
+    url('./assets/mountain1.jpg');
+  background-size: cover;
 }
