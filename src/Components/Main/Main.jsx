@@ -28,7 +28,7 @@ const Main = () => {
           variant="subtitle1"
           style={{ lineHeight: '1.5em', marginTop: '20px ' }}
         >
-          {/** InforCard */}
+          <infoCard />
           Try Saying: Add Income for £50 in Category Salary for Sunday
         </Typography>
         <Divider />
