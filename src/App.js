@@ -6,8 +6,8 @@ import {
   ErrorPanel
 } from '@speechly/react-ui';
 
-import Details from './Components/Details/Details';
-import Main from './Components/Main/Main';
+import Details from './components/Details/Details';
+import Main from './components/Main/Main';
 import useStyles from './styles';
 
 const App = () => {
